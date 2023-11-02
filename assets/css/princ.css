@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url('../img/Borcelle1.png');
+    background-size: cover;
+    height: 200px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.search-bar {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
+
+.search-input {
+    padding: 5px;
+    width: 70%;
+    border: 1px solid #311b81;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.filter-button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.content-container {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-box {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+p{
+    text-align: center;
+}
+
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #311b81;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+}
+  
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+}
+  
+#btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:#5F9EA0;
+    border: 3px solid #311b81;
+}
+  
+#divBusca img{
+    float:left;
+}
+
+.product-box {
+    width: calc(33.33% - 20px);
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    float: left;
+    box-sizing: border-box;
+    border: 3px solid #311b81;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.product-box img {
+    width: 360px;
+    height: 200px;
+    border-radius: 8px;
+    border: 3px solid #000000;
+}
